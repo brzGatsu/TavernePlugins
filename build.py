@@ -1,27 +1,16 @@
 import os
 import shutil
 
-version = "5.1.0"
+version = "5.2.0"
 dir_path = os.path.dirname(os.path.realpath(__file__))
 build_path = os.path.join(dir_path,  "build")
 os.makedirs(build_path)
 
 includes = [
-    "CharakterAssistent",
     "CharakterToText",
-    "DrachentoeterKampfregeln",
-    "FertigkeitenPlus",
-    "FoundryVTT",
-    "Hexalogien",
-    "Manoeverkarten",
-    "RuestungenPlus",
     "SephMakro",
     "SephMakroScripts",
-    "Tierbegleiter",
-    "WaffenPlus",
-    "Zaubertricks",
     "Historie",
-    "Kreaturen"
 ]
 
 print("Copying plugins to build folder")
